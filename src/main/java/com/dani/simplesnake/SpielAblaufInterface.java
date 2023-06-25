@@ -9,7 +9,10 @@ package com.dani.simplesnake;
  * @author Daniel Schilling
  */
 public interface SpielAblaufInterface {
+
     public void spielStarten();
+
     public void spielBeenden();
+
     public void spielNeuStarten();
 }

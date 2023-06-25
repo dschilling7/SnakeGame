@@ -37,7 +37,9 @@ public class SimpleSnake extends Application implements SpielAblaufInterface {
 
     private Direction richtung = Direction.RECHTS;
 
-    // Hauptfenster
+    /**
+     * Hauptfenster
+     */
     private Stage primaryStage;
 
     private boolean programmLaeuft;
@@ -46,7 +48,9 @@ public class SimpleSnake extends Application implements SpielAblaufInterface {
 
     private ObservableList<Node> schlangenKoerperTeile;
 
-    // Spielfeld zeichnen 
+    /**
+     * Spielfeld zeichnen
+     */
     private Parent drawMethod() {
         Pane root = new Pane();
         root.setPrefSize(SPIELFELD_BREITE, SPIELFELD_HOEHE);
@@ -131,9 +135,9 @@ public class SimpleSnake extends Application implements SpielAblaufInterface {
 
     // Bedingung Spielfeldwand
     public boolean wurdeSpielFeldVerlassen(Node schlangenKopf) {
-        return schlangenKopf.getTranslateX() < 0 
-                || schlangenKopf.getTranslateX() >= SPIELFELD_BREITE 
-                || schlangenKopf.getTranslateY() < 0 
+        return schlangenKopf.getTranslateX() < 0
+                || schlangenKopf.getTranslateX() >= SPIELFELD_BREITE
+                || schlangenKopf.getTranslateY() < 0
                 || schlangenKopf.getTranslateY() >= SPIELFELD_HOEHE;
     }
 

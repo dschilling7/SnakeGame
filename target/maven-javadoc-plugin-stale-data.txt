@@ -1,0 +1,55 @@
+@options
+@packages
+-classpath
+'C:/Users/Daniel Schilling/.m2/repository/org/openjfx/javafx-controls/20/javafx-controls-20.jar;C:/Users/Daniel Schilling/.m2/repository/org/openjfx/javafx-controls/20/javafx-controls-20-win.jar;C:/Users/Daniel Schilling/.m2/repository/org/openjfx/javafx-graphics/20/javafx-graphics-20.jar;C:/Users/Daniel Schilling/.m2/repository/org/openjfx/javafx-graphics/20/javafx-graphics-20-win.jar;C:/Users/Daniel Schilling/.m2/repository/org/openjfx/javafx-base/20/javafx-base-20.jar;C:/Users/Daniel Schilling/.m2/repository/org/openjfx/javafx-base/20/javafx-base-20-win.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+11
+-sourcepath
+'C:/Users/Daniel Schilling/Documents/NetBeansProjects/SimpleSnake/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Daniel Schilling/Documents/NetBeansProjects/SimpleSnake/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SimpleSnake 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Daniel Schilling/Documents/NetBeansProjects/SimpleSnake/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'SimpleSnake 1.0-SNAPSHOT API'
+com.dani.simplesnake
+C:\Users\Daniel Schilling\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar = 1687455612367
+C:\Users\Daniel Schilling\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar = 1687455613049
+C:\Users\Daniel Schilling\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar = 1687455612437
+C:\Users\Daniel Schilling\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar = 1687455613274
+C:\Users\Daniel Schilling\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar = 1687455612437
+C:\Users\Daniel Schilling\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar = 1687455612651
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\src\main\java = 1687457328730
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\allclasses-index.html = 1687464051993
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\allpackages-index.html = 1687464051997
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\constant-values.html = 1687464051927
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\copy.svg = 1687464052048
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\element-list = 1687464051882
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\help-doc.html = 1687464052043
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\index-all.html = 1687464052022
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\index.html = 1687464052030
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\member-search-index.js = 1687464052003
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\module-search-index.js = 1687464051998
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\overview-tree.html = 1687464051968
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\package-search-index.js = 1687464052000
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\script.js = 1687464052047
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\search-page.js = 1687464052052
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\search.html = 1687464052026
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\search.js = 1687464052050
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\stylesheet.css = 1687464052046
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\tag-search-index.js = 1687464052004
+C:\Users\Daniel Schilling\Documents\NetBeansProjects\SimpleSnake\target\site\apidocs\type-search-index.js = 1687464052002

@@ -11,12 +11,13 @@ import javafx.scene.paint.Color;
  * @author Daniel Schilling
  */
 public class Stein extends SpielfeldElement {
+
     public Stein(Color farbe) {
         super(farbe);
     }
-    
+
     @Override
     public boolean spielBeendenBeiKollision() {
         return true;
-    }    
+    }
 }

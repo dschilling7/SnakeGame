@@ -16,26 +16,32 @@ import javafx.scene.shape.Rectangle;
  * @author Daniel Schilling
  */
 public abstract class SpielfeldElement {
+
     public Rectangle element;
-    
-    public SpielfeldElement(Color farbe)
-    {
-        element = new Rectangle(BLOCK_GROESSE, BLOCK_GROESSE);    
+
+    public SpielfeldElement(Color farbe) {
+        element = new Rectangle(BLOCK_GROESSE, BLOCK_GROESSE);
         element.setFill(farbe);
     }
-    
-    public void platzieren(){
+
+    public void platzieren() {
         element.setTranslateX(generiereZufallszahl(BLOCK_GROESSE, SPIELFELD_BREITE - BLOCK_GROESSE));
         element.setTranslateY(generiereZufallszahl(BLOCK_GROESSE, SPIELFELD_HOEHE - BLOCK_GROESSE));
     }
-    
-    public boolean kollisionVerursacht(Node schlangenKopf){
+
+    public boolean kollisionVerursacht(Node schlangenKopf) {
         return schlangenKopf.getTranslateX() == element.getTranslateX() && schlangenKopf.getTranslateY() == element.getTranslateY();
     }
-    
-    abstract public boolean spielBeendenBeiKollision();   
-    
-    // Methode für Zufallszahlgenerierung
+
+    abstract public boolean spielBeendenBeiKollision();
+
+    /**
+     * Methode für Zufallszahlgenerierung
+     *
+     * @param min
+     * @param max
+     * @return
+     */
     private int generiereZufallszahl(int min, int max) {
         int range = (max - min) + 1;
         return (int) ((Math.random() * range) + min) / BLOCK_GROESSE * BLOCK_GROESSE;

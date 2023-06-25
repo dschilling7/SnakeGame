@@ -11,12 +11,13 @@ import javafx.scene.paint.Color;
  * @author Daniel Schilling
  */
 public class Frucht extends SpielfeldElement {
+
     public Frucht(Color farbe) {
         super(farbe);
     }
-    
+
     @Override
     public boolean spielBeendenBeiKollision() {
         return false;
-    }    
+    }
 }

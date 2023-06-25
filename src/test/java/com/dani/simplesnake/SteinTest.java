@@ -18,22 +18,22 @@ import static org.junit.Assert.*;
  * @author Daniel Schilling
  */
 public class SteinTest {
-    
+
     public SteinTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -42,7 +42,7 @@ public class SteinTest {
     public void schlangenKopfNichtAufSteinFuehrtNichtZuEinerKollision() {
         Stein stein = new Stein(Color.AQUA);
         stein.platzieren();
-        
+
         Rectangle schlangenKopf = new Rectangle(1, 1);
         schlangenKopf.setTranslateX(stein.element.getTranslateX() + 1);
         schlangenKopf.setTranslateY(stein.element.getTranslateY() + 1);
@@ -53,12 +53,12 @@ public class SteinTest {
     public void schlangenKopfAufSteinFuehrtZuKollision() {
         Stein stein = new Stein(Color.AQUA);
         stein.platzieren();
-        
-        Rectangle schlangenKopf = new Rectangle(1, 1);        
+
+        Rectangle schlangenKopf = new Rectangle(1, 1);
         schlangenKopf.setTranslateX(stein.element.getTranslateX());
         schlangenKopf.setTranslateY(stein.element.getTranslateY());
-        
+
         assertTrue(stein.kollisionVerursacht(schlangenKopf));
     }
-    
+
 }
